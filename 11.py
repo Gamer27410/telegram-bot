@@ -27,7 +27,7 @@ async def javoblar(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("Iltimos, tugmalardan birini tanlang.", reply_markup=markup)
 
 # --- Botni ishga tushurish
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("7761480939:AAGiCvmvx8Pgf01FGgqnMAKTNMRrsQcB9QY")
 app = ApplicationBuilder().token(TOKEN).build()
 
 app.add_handler(CommandHandler("start", start))
